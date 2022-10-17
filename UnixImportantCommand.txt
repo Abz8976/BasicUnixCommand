@@ -1,0 +1,31 @@
+Most Common Unix Commands Used :(Asked in Interview)
+
+#if you want know th e documentation of any command use:=> cmd --help
+
+cd command:-for changing the directory.
+clear:-> is used to clear screen.
+ls:-it will show all listing file.List information about the FILEs. 
+ls -al - default current directory
+ls -al path 
+mkdir:-for creating the directory.
+Su command :- is used when we need to switch the user.
+chmod command :- is used when we have to change the permission of any file.
+cd
+cd . - current folder
+cd .. - parent of the folder
+pwd:-print the name of current working directory.
+rm:-it is used to delete file(rm filename.txt and for deleting the directory rm -rf directory)
+touch:-it's is used to create the file.
+vi editor:-we can edit the file content using editor.
+:wq  - write and quit
+:q! -ignore the lines of code and quit
+cat filecontents.txt(this command is used to display the content of file )
+head : from the beginning of the file 
+tail : from the end of the file(tail -3 filename ==if u want to see the last three line of code)
+wc
+hostname
+df
+du
+ps
+history - lists all the command executed
+ls -al | grep PatternMatch  Filename.txt
